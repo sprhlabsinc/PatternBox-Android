@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">PatternBox</string>
+    <string name="app_title">PATTERN BOX</string>
+
+    <string name="hint_email">USER EMAIL</string>
+    <string name="hint_password">PASSWORD</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_reset">SEND</string>
+    <string name="btn_link_to_register">Sign up For Pattern Box</string>
+    <string name="btn_link_to_reset">Forgot your password?</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_link_to_main">Back</string>
+    <string name="btn_scan_pattern"> SCAN PATTERN</string>
+    <string name="btn_my_patterns">MY PATTERNS</string>
+    <string name="btn_book_marks">BOOKMARKS</string>
+    <string name="btn_buy_patterns">BUY_PATTERNS</string>
+    <string name="btn_skip_tutorial">Skip tutorial</string>
+    <string name="btn_front">FRONT</string>
+    <string name="btn_back">BACK</string>
+    <string name="lbl_notes">NOTES:</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <!-- Reset Screen -->
+    <string name="reset_enter_email">ENTER EMAIL ADDRESS</string>
+    <string name="reset_description">Pattern Box will send password \n reset instructions to the email address \n associated with your account</string>
+
+    <!-- SignUp Screen -->
+    <string name="hint_signup_email">Enter Email Address</string>
+    <string name="hint_signup_password">Enter Password</string>
+    <string name="hint_signup_confirm">Re -enter Password</string>
+    <string name="hint_search">Enter Pattern Name</string>
+    <string name="btn_signup">SIGN UP</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_main">MAIN</string>
+    <string name="nav_help">HOW TO USE</string>
+    <string name="nav_policy">PRIVACY POLICY</string>
+    <string name="nav_terms">TERMS OF USE</string>
+    <string name="nav_contact">CONTACT US</string>
+    <string name="nav_logout">LOGOUT</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>PATTERN BOX</item>
+        <item>HOW TO USE</item>
+        <item>Privacy Policy</item>
+        <item>Terms Of Use</item>
+        <item>Contact Us</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="action_search">Search</string>
+
+    <string name="tutorial_title_scan_patterns">SCAN PATTERNS</string>
+    <string name="tutorial_content_scan">Add items by simply taking a photo, \n front and back for patterns, adding item to \n a category, then fill in information \n and select save.</string>
+    <string name="tutorial_title_capture">CAPTURED PATTERNS</string>
+    <string name="tutorial_content_capture">Tap captured pattern image to toggle \n viewing of front and back and zoom in \n and out by pinching. \n   </string>
+    <string name="tutorial_content_capture1">Have control over all saved patterns \n with the Edit, Bookmark, Highlight \n and Delete feature. \n  </string>
+    <string name="tutorial_title_buy">BUY PATTERNS</string>
+    <string name="tutorial_title_import">IMPORT PDF PATTERNS</string>
+    <string name="tutorial_content_import">When downloading PDF patterns,\n select OPEN WITH or More option \n to import patterns directly into PATTERNBOX</string>
+    <string name="tutorial_title_bookmark">BOOKMARKS</string>
+    <string name="tutorial_content_bookmark">Have ongoing projects? Pattern projects \n that are bookmarked will be viewed \n easily on the app\'s bookmarks page. \n </string>
+    <string name="tutorial_title_category">CUSTOMIZE CATEGORY</string>
+    <string name="tutorial_content_category">My Patterns, select PDF or CAPTURED, \n select EDIT, ADD to create \n more  Categories \n</string>
+    <string name="tutorial_title_project">PROJECT</string>
+    <string name="tutorial_content_project">Keep track of projects by selecting PROJECTS, \n select the + icon, then add information \n needed for the project, also select a \n pattern, fabric and notions.</string>
+    <string name="tutorial_title_search">SEARCH</string>
+    <string name="tutorial_content_search">When uploading Patterns, Fabrics, Notions or Projects, what you fill into NAME will be what you will enter to SEARCH, this will give you options on how you want to search for items in your PATTERNBOX</string>
+
+    <string name="privacy_policy_content">Welcome to Pattern Box (“Pattern Box,” “we,” “us” or “our”).\n\n
+
+
+This privacy policy explains how we collect, use and disclose information about you when you use our Web site (the “Site”), our mobile application (the “App”) and other online products and services that link to this privacy policy (collectively, the “Service”). By using the Service, you consent to our collection, use and disclosure of your personal information as described in this privacy policy.\n\n
+
+Modifications\n\n
+
+We may change this privacy policy from time to time. If we make changes, we will revise the date at the top of the policy and, in some cases, provide you with additional notice (such as adding a statement to our homepage or sending you an email notification). Since we typically will not contact you to provide formal notice of any such change, we encourage you to review the privacy policy periodically to stay informed about our practices and the ways you can help protect your privacy.\n\n
+
+Collection of Information\n\n
+
+-Information You Provide to Us\n
+We collect information you directly give us. For example, we collect information about you when you sign up for our Service by creating a Profile, make a Post, give feedback about the Service or otherwise communicate with us (e.g., through online contests, etc.). The types of information we may collect include your name, email address, mobile phone number and any other information you choose to provide. If you choose not to provide certain information, we may not be able to provide the Service to you or certain features of the Service may be unavailable or work differently.\n
+-Information We Collect Automatically When You Use the Service\n
+When you access or use our Service, we automatically collect information about you. This information is used by us for debugging and analytical purposes (e.g., to enhance the Service), and it includes:\n
+ｷ	Log Information:  We log information about your use of the Service, including the type of browser you use, access times, IP address, Posts and pages viewed, and the page you visited before navigating to our Service.\n
+ｷ	Device Information:  We collect information about the computer and/or mobile device you use to access our Service, including the hardware model, operating system and version, unique device identifiers and mobile network information.  This data may be used for purposes of monitoring for inappropriate usage of the site and may result in a blocking or removal of the ability to use our site if the user is determined to be abusing the site.\n
+ｷ	Location Information:  We may collect information about the general location of your Internet Service Provider based on your IP Address. If you allow Pattern Box to access your location information, we may also collect your geolocation information.\n
+ｷ	Information Collected by Cookies and Other Tracking Technologies:  We use various technologies to collect information, and this may include sending cookies to your computer or mobile device. Cookies are small data files stored on your hard drive or in device memory that help us to improve our Service and your experience, see which areas and features of our Service are popular and count visits. We may also collect information using web beacons (also known as “tracking pixels”). Web beacons are electronic images that may be used in our Service or emails and help deliver cookies, count visits, understand usage and campaign effectiveness and determine whether an email has been opened and acted upon. For more information about cookies, and how to disable them, please see “Your Choices” below.\n\n
+
+Use of Information\n\n
+
+We may use information about you for various purposes, including, but not limited to:\n
+ｷ	Provide, maintain and improve our Service;\n
+ｷ	Provide and deliver the Service you request, process transactions and send you related information, including confirmations;\n
+ｷ	Send you technical notices, updates, confirmations, security alerts and support and administrative messages;\n
+ｷ	Respond to your comments, questions and requests and provide customer service;\n
+ｷ	Communicate with you about products, services, offers, promotions, rewards and events offered by Pattern Box and others, and provide news and information we think will be of interest to you;\n
+ｷ	Monitor and analyze trends, usage and activities in connection with our Service and improve and personalize the Service;\n
+ｷ	Personalize and improve the Service and provide advertisements, content or features that match user profiles or interests;\n
+ｷ	Link or combine with information we get from others to help understand your needs and provide you with better service; and\n
+ｷ	Connect you with other users in your Contacts.\n\n
+
+Storage of Information\n\n
+
+The information you provide to Pattern Box is encrypted and stored on physically secure third-party servers. Your information is stored only as long as necessary to accomplish the purposes described in this privacy policy.\n\n
+
+Sharing of Information\n\n
+We may share Profile-identified information about you as follows or as otherwise described in this privacy policy:\n
+ｷ	With other users of the Service by providing them with your Pattern Box Profile and Posts.\n
+We may also share information (which may at times include personal information) about you as follows:\n
+ｷ	With vendors, consultants and other service providers who need access to such information to carry out work on our behalf;\n
+ｷ	In connection with, or during negotiations of, any merger, sale of Pattern Box assets, financing or acquisition of all or a portion of our business to another company;\n
+ｷ	In response to a request for information if we believe disclosure is in accordance with any applicable law, regulation or legal process, or as otherwise required by any applicable law, rule or regulation;\n
+ｷ	If the content of a Post can reasonably be considered illegal or unlawful (or it seems like the Post is being used to engage in, encourage or promote such activities), in which case we may report your identity to proper authorities in order to protect the rights, property and safety of Pattern Box, our users and/or others; and\n
+ｷ	With your consent or at your direction, including if we notify you through our Service that the information you provide will be shared in a particular manner and you provide such information.\n
+Note that if you choose to include information about you in your Posts, such information will be shared with other users of the Service who receive such Posts as described in this privacy policy. We suggest that you do not include any identifiable information about you in your Posts or in your Username. Also, please note that if you or other users choose to share a Post through a third party, such as Facebook, Twitter or an email client, any further collection and sharing of that Post by such third party or its users will be governed by that third party’s privacy policy, and we cannot control what any third party does with any Posts or other information that is shared with third parties.\n\n
+
+How We Respond to Subpoenas from Courts\n\n
+
+While we attempt to make it difficult to do so, it is still technically possible for us to connect your Posts with your email address, phone number, or other personal data you have provided to us. This means that if a court asks us to disclose your identity, we may be compelled to do so. If we do happen to receive a subpoena or court order requesting that we disclose your information, we will attempt to contact you if reasonably feasible before we disclose any information to give you time to fight the subpoena in court.\n\n
+
+Security\n\n
+
+We take measures in an effort to protect information about you from loss, theft, misuse and unauthorized access, disclosure, alteration and destruction.\n\n
+
+Analytics Services Provided by Others\n\n
+
+We may allow third parties to provide analytics services to us. These entities may use cookies, web beacons and other technologies to collect information about your use of the Service, including your IP address, Posts, Posts viewed, time spent on Posts, and conversion information. This information may be used by us and others to, among other things, analyze and track data, determine the popularity of certain content and better understand your online activity.\n\n
+
+Retention of Personal Information\n\n
+
+Pattern Box will only retain personal information about you for as long as it is necessary for the purposes described in this privacy policy. When Pattern Box determines that we are no longer using the personal information, we will take steps to permanently erase such personal information from the Site.\n\n
+
+Your Choices\n\n
+
+-Account Information\n
+Note that we may retain certain information as required by law or for legitimate business purposes as may be necessary to fulfill the purposes identified in the privacy policy. We may also retain cached or archived copies of information about you for a certain period of time.\n
+-Cookies\n
+Most web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your web browser to remove or reject browser cookies. Removing or rejecting browser cookies does not necessarily affect third party flash cookies used in connection with the Service. To delete or disable flash cookies please visit www.adobe.com/products/flashplayer/security for more information. Please note that if you choose to remove or reject cookies, this could affect the availability and functionality of the Service.\n
+-Accessing and Correcting Information about You.\n
+You may email us at support@zapporoo.com if you wish to know what personal information we hold about you or to request that we correct any such information that is not accurate, complete or up to date.\n\n
+
+Contact Us\n\n
+
+If you have any questions or concerns about this privacy policy or any privacy issues, please email our Privacy Manager at support@zapporoo.com. Our Privacy Manager is responsible for coordinating the investigation of any concerns or complaints made to Pattern Box about privacy issues and resolving the matter with a complainant. If you email our Privacy Manager at the email specified above, we will use our best efforts to respond to concerns and complaints within a reasonable time after receipt (usually no more than 30 days).\n\n
+</string>
+<string name="terms_use_content">PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING THE SERVICES OFFERED Pattern Box ("Pattern Box"), A CALIFORNIA CORPORATION. THESE TERMS OF USE SET FORTH THE LEGALLY BINDING TERMS AND CONDITIONS FOR YOUR USE OF THE WEBSITE AT HTTP:// Pattern Box.COM (THE "SITE"), THE Pattern Box SMARTPHONE APPLICATION (THE “APP”) AND THE SERVICES, FEATURES, CONTENT, APPLICATIONS OR OTHER SOFTWARE OFFERED BY Pattern Box (COLLECTIVELY WITH THE SITE AND THE APP, THE "SERVICE").\n\n
+
+Acceptance of Terms.\n\n
+
+By registering for and/or using the Service in any manner, including but not limited to visiting or browsing the Site, you agree to all of the terms and conditions contained herein ("Terms of Use"), which also incorporates Pattern Box’s Privacy Policy, and all other operating rules, policies and procedures that may be published from time to time on the Site by Pattern Box, each of which is incorporated by reference and each of which may be updated by Pattern Box from time to time without notice to you in accordance with the terms set out under the "Modification of Terms of Use" section below. In addition, some services offered through the Service may be subject to additional terms and conditions specified by Pattern Box from time to time; your use of such services is subject to those additional terms and conditions, which are incorporated into these Terms of Use by this reference. These Terms of Use apply to all users of the Service, including, without limitation, users who are contributors of content, information, and other materials or services on the Site, individual users of the Service, vendors that access the Service, and users that have a page on the Service.\n\n
+
+Our Services.\n\n
+
+Pattern Box offers a platform to be able to download, edit, and save sewing patterns. To utilize the Service, you must create a User Name and password (“Profile”). The details of the Profile must be truthful in order to meet the wishes of the users as much as possible. You are responsible for the use of maintaining the security of and restricting access to your Profile and password, and you agree to accept responsibility for all purchases and other activities that occur under your account. Pattern Box offers the Service solely for your own use, and not for the use or benefit of any third party.\n\n
+
+Registration and Eligibility.\n\n
+
+As a condition to using certain aspects of the Service, you are required to register with Pattern Box and represent, warrant and covenant that you provide Pattern Box with accurate, truthful, and complete registration information (including, but not limited to your e-mail address and a password you will use to access the Service) and to keep your registration information accurate and up-to-date. Failure to do so shall constitute a breach of these Terms of Use, which may result in immediate termination of your Pattern Box account. You shall not:\n
+•	provide any false personal information to Pattern Box (including a false User Name) or create any account for anyone other than yourself without such person\'s permission;\n
+•	use a User Name that is the name of another person with the intent to impersonate that person;\n
+•	use a User Name or Pattern Box account that is subject to any rights of a person other than you without appropriate authorization; or\n
+•	use a User Name that is a name that is otherwise offensive, vulgar or obscene or otherwise unlawful.\n
+Pattern Box reserves the right to refuse registration of, or cancel a User Name in its sole discretion. You are solely responsible and liable for activity that occurs on your account and shall be responsible for maintaining the confidentiality of your  password. You shall never use another user\'s account without such other user\'s prior express permission. You will immediately notify Pattern Box in writing of any unauthorized use of your account, or other account related security breach of which you are aware. You represent and warrant that if you are an individual, you are of legal age to form a binding contract, or that if you are registering on behalf of an entity, that you are authorized to enter into, and bind the entity to, these Terms of Use and register for the Service. The Service is not available to individuals who are younger than 18 years old. Pattern Box may, in its sole discretion, refuse to offer the Service to any person or entity and change its eligibility criteria at any time. You are solely responsible for ensuring that these Terms of Use are in compliance with all laws, rules and regulations applicable to you and the right to access the Service is revoked where these Terms of Use or use of the Service is prohibited and, in such circumstances, you agree not to use or access the Site or Services in any way.\n\n
+
+User Content.\n\n
+
+All Content, whether publicly posted or privately transmitted, is the sole responsibility of the person who originated such Content. Pattern Box cannot guarantee the authenticity of any Content or data which users may provide about themselves. You acknowledge that all Content accessed by you using the Service is at your own risk and you will be solely responsible and liable for any damage or loss to you or any other party resulting therefrom. For purposes of these Terms of Use, the term "Content" includes, without limitation, any location information, videos, audio clips, comments, information, data, text, photographs, software, scripts, graphics, and interactive features generated, provided, or otherwise made accessible by Pattern Box on or through the Service. Content added, created, uploaded, submitted, distributed, or posted to the Service by users is collectively referred to as, "User Submissions."\n\n
+
+Pattern Box Content.\n\n
+
+The Service contains Content specifically provided by Pattern Box or its partners and such Content is protected by copyrights, trademarks, service marks, patents, trade secrets or other proprietary rights and laws, as applicable. You shall abide by and maintain all copyright notices, information, and restrictions contained in any Content accessed through the Service. Subject to these Terms of Use, Pattern Box  grants each user of the Site and/or Service a worldwide, non-exclusive, non-sublicensable and non-transferable license to use, modify and reproduce the Content, solely for personal, non-commercial use. Use, reproduction, modification, distribution or storage of any Content for other than personal, non-commercial use is expressly prohibited without prior written permission from Pattern Box, or from the copyright holder identified in such Content\'s copyright notice, as applicable. You shall not sell, license, rent, or otherwise use or exploit any Content for commercial (whether or not for profit) use or in any way that violates any third party right.\n\n
+
+User Submissions.\n\n
+
+We may use your User Submissions in a number of different ways in connection with the Site, Service and Pattern Box‘s business as Pattern Box may determine in its sole discretion, including but not limited to, publicly displaying it, reformatting it, incorporating it into marketing materials, advertisements and other works, creating derivative works from it, promoting it, distributing it, and allowing other users to do the same in connection with their own websites, media platforms, and applications (“Third Party Media”). By submitting User Submissions on the Site or otherwise through the Service, you hereby do and shall grant Pattern Box a perpetual, worldwide, non-exclusive, royalty-free, fully paid, sublicensable and transferable license to use, copy, edit, modify, reproduce, distribute, prepare derivative works of, display, perform, and otherwise fully exploit the User Submissions in connection with the Site, the Service and Pattern Box’s(and its successors and assigns\') business, including without limitation for promoting and redistributing part or all of the Site (and derivative works thereof) or the Service in any media formats and through any media channels (including, without limitation, third party websites and feeds). You also hereby do and shall grant each user of the Site and/or the Service, including Third Party Media, a non-exclusive license to access your User Submissions through the Site and the Service, and to use, edit, modify, reproduce, distribute, prepare derivative works of, display and perform such User Submissions in connection with their use of the Site, Service and Third Party Media. For clarity, the foregoing license grant to Pattern Box does not affect your other ownership or license rights in your User Submission(s), including the right to grant additional licenses to the material in your User Submission(s), unless otherwise agreed in writing with Pattern Box. You represent and warrant that you have all rights to grant such license to us without infringement or violation of any third party rights, including without limitation, any privacy rights, publicity rights, copyrights, contract rights, or any other intellectual property or proprietary rights. You understand that all information publicly posted or privately transmitted through the Site is the sole responsibility of the person from which such Content originated; that Pattern Box will not be liable for any errors or omissions in any Content; and that Pattern Box cannot guarantee the identity of any other users with whom you may interact in the course of using the Service. When you delete your User Submissions, they will be removed from the Service. However, you understand that any removed User Submissions may persist in backup copies for a reasonable period of time (but following removal will not be shared with others) or may remain with users who have previously accessed or downloaded your User Submissions.\n\n
+
+Rules and Conduct.\n\n
+
+As a condition of use, you promise not to use the Service for any purpose that is prohibited by these Terms of Use. You are responsible for all of your activity in connection with the Service. Additionally, you shall abide by all applicable local, state, national and international laws and regulations and, if you represent a business, any advertising, marketing, privacy, or other self-regulatory code(s) applicable to your industry. By way of example, and not as a limitation, you shall not (and shall not permit any third party to) either (a)take any action or (b)upload, download, post, submit or otherwise distribute or facilitate distribution of any Content on or through the Service, including without limitation any User Submission, that:\n
+•	infringes any patent, trademark, trade secret, copyright, right of publicity or other right of any other person or entity or violates any law or contractual duty;\n
+•	you know is false, misleading, untruthful or inaccurate;\n
+•	is unlawful, threatening, abusive, harassing, defamatory, libelous, deceptive, fraudulent, invasive of another\'s privacy, tortious, obscene, vulgar, pornographic, offensive, profane, contains or depicts nudity, contains or depicts sexual activity, promotes bigotry, discrimination or violence, or is otherwise inappropriate as determined by Pattern Box in its sole discretion;\n
+•	constitutes unauthorized or unsolicited advertising, junk or bulk e-mail ("spamming");\n
+•	involves commercial activities (whether or not for profit) and/or sales without Pattern Box’s prior written consent such as contests, sweepstakes, barter, advertising, or pyramid schemes;\n
+•	contains software viruses or any other computer codes, files, worms, logic bombs or programs that are designed or intended to disrupt, disable, damage, limit or interfere with the proper function of any software, hardware, or telecommunications equipment or to damage or obtain unauthorized access to any system, data, password or other information of Pattern Box or any third party;\n
+•	impersonates any person or entity, including any employee or representative of Pattern Box;\n
+•	includes anyone\'s identification documents or sensitive financial information; or\n
+•	breaches the Privacy Policy and/or any of the other policies and rules incorporated herein.\n
+If the User Submission includes a photograph, the photo must belong to the User, not anyone else. Nudity, hate speech, belligerence, inappropriate or mean-spirited comments are not welcome on Pattern Box’s services. Pattern Box reserves the right to determine these in their own sole discretion. Photos that contain private information (driver\'s license numbers, address, credit card numbers, etc.), are inappropriate, as are photos of those who do not want their photo taken. All photos are "User Submissions" as defined above. Pattern Box has a zero-tolerance policy against child pornography, and will terminate and report to the appropriate authorities any user who publishes or distributes child pornography.\n
+You shall not (directly or indirectly):\n
+•	take any action that imposes or may impose (as determined by Pattern Box in its sole discretion) an unreasonable or disproportionately large load on Pattern Box \'s (or its third party providers\') infrastructure;\n
+•	interfere or attempt to interfere with the proper working of the Service or any activities conducted on the Service;\n
+•	bypass any measures Pattern Box may use to prevent or restrict access to the Service (or other accounts, computer systems or networks connected to the Service);\n
+•	run any form of auto-responder or "spam" on the Service;\n
+•	use manual or automated software, devices, or other processes to "crawl" or "spider" any page of the Site;\n
+•	harvest or scrape any Content from the Service;\n
+•	modify, adapt, appropriate, reproduce, distribute, translate, create derivative works or adaptations of, publicly display, republish, repurpose, sell, trade, or in any way exploit the Service or Site Content (other than your User Submissions), except as expressly authorized by Pattern Box;\n
+•	decipher, decompile, disassemble, reverse engineer or otherwise attempt to derive any source code or underlying ideas or algorithms of any part of the Service (including without limitation any application or widget), except to the limited extent applicable laws specifically prohibit such restriction;\n
+•	copy, rent, lease, distribute, or otherwise transfer any of the rights that you receive hereunder;\n
+•	otherwise take any action in violation of Pattern Box ‘s guidelines and policies.\n
+Pattern Box does not guarantee that any Content or User Submissions (as defined above) will be made available on the Site or through the Service. Pattern Box has no obligation to monitor the Site, Service, Content, or User Submissions. However, Pattern Box reserves the right to (i) remove, suspend, edit or modify any Content in its sole discretion, including without limitation any User Submissions at any time, without notice to you and for any reason (including, but not limited to, upon receipt of claims or allegations from third parties or authorities relating to such Content or if Pattern Box is concerned that you may have violated these Terms of Use), or for no reason at all and (ii) to remove, suspend or block any User Submissions from the Service. Pattern Box also reserves the right to access, read, preserve, and disclose any information as Pattern Box reasonably believes is necessary to (i) satisfy any applicable law, regulation, legal process or governmental request, (ii) enforce these Terms of Use, including investigation of potential violations hereof, (iii) detect, prevent, or otherwise address fraud, security or technical issues, (iv) respond to user support requests, or (v) protect the rights, property or safety of Pattern Box, its users and the public.\n\n
+
+Third Party Sites and Services.\n\n
+
+The Service may contain links or have references to websites controlled by parties other than Pattern Box. Pattern Box is not responsible for and does not endorse or accept any responsibility for the contents or use of these third party websites. Pattern Box is providing these links to you only as a convenience, and the inclusion of any link does not imply or otherwise constitute endorsement by Pattern Box of the linked website and/or the content and materials found at the linked website, except as specifically stated otherwise by Pattern Box. It is your responsibility to take precautions to ensure that whatever you select for your use is free of viruses or other items of an intrusive nature.\n\n
+
+Termination.\n\n
+
+Pattern Box may terminate your access to all or any part of the Service at any time, with or without cause, with or without notice, effective immediately, which may result in the forfeiture and destruction of all information associated with your membership. If you wish to terminate your account, you may do so by following the instructions on the Site. Any fees paid hereunder are non-refundable. All provisions of these Terms of Use which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.\n\n
+
+Warranty Disclaimer.\n\n
+
+Save to the extent required by law, Pattern Box has no special relationship with or fiduciary duty to you. You acknowledge that Pattern Box has no control over, and no duty to take any action regarding: which users gain access to the Service; what Content you access via the Service; what effects the Content may have on you; how you may interpret or use the Content; or what actions you may take as a result of having been exposed to the Content. You release Pattern Box from all liability for you having acquired or not acquired Content through the Service. The Service may contain, or direct you to websites containing, information that some people may find offensive or inappropriate. Pattern Box makes no representations concerning any Content contained in or accessed through the Service, and Pattern Box will not be responsible or liable for the accuracy, copyright compliance, legality or decency of material contained in or accessed through the Service. You release us from all liability relating to your connections and relationships with other users. You understand that we do not, in any way, screen users, nor do we inquire into the backgrounds of users or attempt to verify their backgrounds or statements. We make no representations or warranties as to the conduct of users or the veracity of any information users provide. In no event shall we be liable for any damages whatsoever, whether direct, indirect, general, special, compensatory, consequential, and/or incidental, arising out of or relating to the conduct of you or anyone else in connection with the Services, including, without limitation, bodily injury, emotional distress, and any damages resulting in any way from communications or meetings with users or persons you may otherwise meet through the Services. As such, you agree to take reasonable precautions and exercise the utmost personal care in all interactions with any individual you come into contact with through the Services, particularly if you decide to meet such individuals in person. For example, you should not, under any circumstances, provide your financial information (e.g., credit card or bank account numbers) to other individuals. THE SITE, SERVICE, CONTENT AND ALL ASSOCIATED APPLICATIONS ARE PROVIDED "AS IS", "AS AVAILABLE" AND ARE PROVIDED WITHOUT ANY REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND ANY WARRANTIES IMPLIED BY ANY COURSE OF PERFORMANCE OR USAGE OF TRADE, ALL OF WHICH ARE EXPRESSLY DISCLAIMED, SAVE TO THE EXTENT REQUIRED BY LAW. Pattern Box, AND ITS DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, SUPPLIERS, PARTNERS AND CONTENT PROVIDERS DO NOT WARRANT THAT: (A) THE SERVICE WILL BE SECURE OR AVAILABLE AT ANY PARTICULAR TIME OR LOCATION; (B) ANY DEFECTS OR ERRORS WILL BE CORRECTED; (C) ANY CONTENT OR SOFTWARE AVAILABLE AT OR THROUGH THE SERVICE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS; OR (D) THE RESULTS OF USING THE SERVICE WILL MEET YOUR REQUIREMENTS. YOUR USE OF THE WEBSITE, SERVICE, CONTENT AND APP IS SOLELY AT YOUR OWN RISK. SOME STATES / COUNTRIES DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.\n\n
+
+Indemnification.\n\n
+
+You shall defend, indemnify, and hold harmless Pattern Box, its affiliates and each of its, and its affiliates employees, contractors, directors, suppliers and representatives from all losses, costs, actions, claims, damages, expenses (including reasonable legal costs) or liabilities, that arise from or relate to your use or misuse of, or access to, the Site, Service, Content, App or otherwise from your User Submissions, violation of these Terms of Use, or infringement by you, or any third party using the your account, of any intellectual property or other right of any person or entity (save to the extent that a court of competent jurisdiction holds that such claim arose due to an act or omission of Pattern Box). Pattern Box reserves the right to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will assist and cooperate with Pattern Box in asserting any available defenses.\n\n
+
+Limitation of Liability.\n\n
+
+In no event we Pattern Box be liable to you or your dog (or to any third party) for direct or indirect damages arising out of the use of the Service, whether based on warranty, contract, tort (including negligence) or any other legal theory and whether or not we have been of the possibility of such damage, even if any limited remedy is found to have failed its essential purpose.\n
+ALL LIABILITY OF Pattern Box, ITS DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, PARTNERS, SUPPLIERS OR CONTENT PROVIDERS HOWSOEVER ARISING FOR ANY LOSS SUFFERED AS A RESULT OF YOUR USE THE SITE, SERVICE, CONTENT, USER SUBMISSIONS OR APPLICATION IS EXPRESSLY EXCLUDED TO THE FULLEST EXTENT PERMITTED BY LAW, SAVE THAT, IF A COURT OF COMPETENT JURISDICTION DETERMINES THAT LIABILITY OF Pattern Box, ITS DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, PARTNERS, SUPPLIERS OR CONTENT PROVIDERS (AS APPLICABLE) HAS ARISEN, THE TOTAL OF SUCH LIABILITY SHALL BE LIMITED IN AGGREGATE TO ONE HUNDRED US DOLLARS ($100). TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL Pattern Box, NOR ITS DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, PARTNERS, SUPPLIERS OR CONTENT PROVIDERS, BE LIABLE UNDER CONTRACT, TORT, STRICT LIABILITY, NEGLIGENCE OR ANY OTHER LEGAL OR EQUITABLE THEORY OR OTHERWISE (AND WHETHER OR NOT Pattern Box, ITS DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES, PARTNERS, SUPPLIERS OR CONTENT PROVIDERS HAD PRIOR KNOWLEDGE OF THE CIRCUMSTANCES GIVING RISE TO SUCH LOSS OR DAMAGE) WITH RESPECT TO THE SITE, SERVICE, CONTENT, USER SUBMISSIONS OR APP FOR:\n
+•	INDIRECT OR CONSEQUENTIAL LOSSES OR DAMAGES;\n
+•	LOSS OF ACTUAL OR ANTICIPATED PROFITS;\n
+•	LOSS OF REVENUE;\n
+•	LOSS OF GOODWILL;\n
+•	LOSS OF DATA;\n
+•	LOSS OF ANTICIPATED SAVINGS;\n
+•	WASTED EXPENDITURE; OR\n
+•	COST OF PROCUREMENT OF SUBSTITUE GOODS OR SERVICES. NOTHING IN THESE TERMS OF USE SHALL BE DEEMED TO EXCLUDE OR LIMIT YOUR LIABILITY IN RESPECT OF ANY INDEMNITY GIVEN BY YOU UNDER THESE TERMS OF USE. APPLICABLE LAW MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY OR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. IN SUCH CASES, Pattern Box’S LIABILITY WILL BE LIMITED TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW. SOLELY IN RESPECT OF USERS LOCATED IN EUROPEAN ECONOMIC AREA (EEA) AND/OR AUSTRALIA, NOTHING IN THESE TERMS OF USE SHALL BE DEEMED TO EXCLUDE OR LIMIT OUR OR YOUR LIABILITY (AS APPLICABLE) IN RESPECT OF:\n
+•	DEATH OR PERSONAL INJURY ARISING AS A RESULT OF OUR OR YOUR NEGLIGENCE (AS APPLICABLE);\n
+•	FRAUD (INCLUDING FRAUDULENT MISREPRESENTATION), THEFT OR OTHER CRIMINAL ACTIVITY; OR\n
+•	ANY BREACH OF ANY OBLIGATIONS IMPLIED BY SECTION 12 OF THE SALE OF GOODS ACT 1979 OR SECTION 2 OF THE SUPPLY OF GOODS AND SERVICES ACT 1982.\n\n
+
+Governing Law.\n\n
+
+A printed version of these Terms of Use and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to these Terms of Use to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. You and Pattern Box agree that any cause of action arising out of or related to the Service must commence within one (1) year after the cause of action arose; otherwise, such cause of action is permanently barred. These Terms of Use shall be governed by and construed in accordance with the laws of California. For all purposes of these Terms of Use, the parties consent to exclusive jurisdiction and venue in the State of California. Use of the Service is not authorized in any jurisdiction that does not give effect to all provisions of these Terms of Use, including without limitation, this section.\n\n
+
+Integration and Severability.\n\n
+
+These Terms of Use are the entire agreement between you and Pattern Box with respect to the Service and use of the Site, Service, Content, User Submissions or Application, and supersede all prior or contemporaneous communications and proposals (whether oral, written or electronic) between you and Pattern Box with respect to the Site. If any provision of these Terms of Use is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary so that these Terms of Use will otherwise remain in full force and effect and enforceable. The failure of either party to exercise in any respect any right provided for herein shall not be deemed a waiver of any further rights hereunder. Waiver of compliance in any particular instance does not mean that we will waive compliance in the future. In order for any waiver of compliance with these Terms of Use to be binding, Pattern Box must provide you with written notice of such waiver through one of its authorized representatives.\n\n
+
+Modification of Terms of Use.\n\n
+
+Pattern Box reserves the right, at its sole discretion, to modify or replace any of these Terms of Use, or change, suspend, or discontinue the Service (including without limitation, the availability of any feature, database, or content) at any time by posting a notice on the Site or by sending you notice through the Service or via email. Pattern Box may also impose limits on certain features and services or restrict your access to parts or all of the Service without notice or liability. It is your responsibility to check these Terms of Use periodically for changes. Your continued use of the Service following the posting of any changes to these Terms of Use constitutes acceptance of those changes.\n\n
+
+Miscellaneous.\n\n
+
+Pattern Box shall not be liable for any failure to perform its obligations hereunder where such failure results from any cause beyond Pattern Box’s reasonable control, including, without limitation, mechanical, electronic or communications failure or degradation (including "line-noise" interference). These Terms of Use are personal to you, and are not assignable, transferable or sublicensable by you except with Pattern Box’s prior written consent. Pattern Box may assign, transfer or delegate any of its rights and obligations hereunder without consent. No agency, partnership, joint venture, or employment relationship is created as a result of these Terms of Use and neither party has any authority of any kind to bind the other in any respect. Unless otherwise specified in these Term of Use, all notices under these Terms of Use will be in writing and will be deemed to have been duly given when received, if personally delivered or sent by certified or registered mail, return receipt requested; when receipt is electronically confirmed, if transmitted by facsimile or e-mail; or the day after it is sent, if sent for next day delivery by recognized overnight delivery service.\n\n
+</string>
+</resources>

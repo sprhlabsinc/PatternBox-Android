@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.premium.patternbox.fragment.TermsFragment">
+
+    <ScrollView
+        android:id="@+id/textAreaScroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="25px"
+        android:scrollbars="vertical"
+        tools:ignore="ObsoleteLayoutParam,PxUsage,UselessParent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/terms_use_content" />
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/arrow_img"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_bottom"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+        <TextView
+            android:id="@+id/category_txt"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/arrow_img"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="ZIPPERS"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <TextView
+            android:id="@+id/sum_txt"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/category_txt"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="(555)"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/add_but"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/circle_plus"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/notion_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/cell_layout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            tools:ignore="UselessParent">
+            <TextView
+                android:id="@+id/notion_txt"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:text="Nike, blue, large"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="120dp"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <Button
+                android:id="@+id/delete_but"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="21dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/delete_icon"
+                tools:ignore="RtlHardcoded" />
+            <TextView
+                android:id="@+id/count_txt"
+                android:layout_marginRight="70dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text="5"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

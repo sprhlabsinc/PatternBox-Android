@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:background="@color/colorLightGray"
+    android:orientation="vertical"    >
+
+    <RelativeLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <ImageView
+            android:id="@+id/pattern_img"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/pattern_sketch"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+            <Button
+                android:id="@+id/camera_but"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/icon_camera1"/>
+            <Button
+                android:id="@+id/gallery_but"
+                android:layout_marginTop="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/icon_import"/>
+            <Button
+                android:id="@+id/rotate_but"
+                android:layout_marginTop="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/icon_rotate"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.5"
+                android:background="@android:color/black"/>
+            <Button
+                android:id="@+id/back_camera_but"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="&lt; Back"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <Button
+                android:id="@+id/front_camera_but"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Front &gt;"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Select Applicable Category"
+        tools:ignore="HardcodedText" />
+
+    <org.lucasr.twowayview.TwoWayView
+        android:layout_marginTop="10dp"
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:drawSelectorOnTop="false"
+        android:background="@android:color/white"
+        style="@style/TwoWayView"/>
+
+</LinearLayout>

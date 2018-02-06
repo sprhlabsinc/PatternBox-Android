@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/swipeLayout"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:tag="Bottom4"
+        android:id="@+id/bottom_wrapper_2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/delete_but"
+            android:layout_width="100dp"
+            android:text="Delete"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_dark"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,HardcodedText" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+                <ImageView
+                    android:id="@+id/project_img"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/project_thumbnail"
+                    tools:ignore="ContentDescription,RtlHardcoded"
+                    android:contentDescription="" />
+                <ImageView
+                    android:id="@+id/pattern_img"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/pattern_thumbnail"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+                <TextView
+                    android:id="@+id/lbName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Name: Jacket"
+                    android:focusable="false"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/lbFor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text="For: Kris"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/lbNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:focusable="false"
+                    android:text="Note: Fashion style"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <org.lucasr.twowayview.TwoWayView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawSelectorOnTop="false"
+            android:background="@android:color/transparent"
+            style="@style/TwoWayView"/>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/fabric_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"/>
+    </RelativeLayout>
+</com.daimajia.swipe.SwipeLayout>

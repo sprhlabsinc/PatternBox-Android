@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ba3431</color>
+    <color name="colorPrimaryDark">#ba3431</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorDefault">#ba3431</color>
+    <color name="colorHint">#999999</color>
+    <color name="colorLightGray">#e3e3e3</color>
+    <color name="colorDarkGray">#b1b1b1</color>
+    <color name="bg_split">#8b8b8b</color>
+    <color name="colorBorder">#e1d9c8</color>
+    <color name="transparent">#00000000</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+        <item>@color/colorDefault</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+        <item>@color/colorDarkGray</item>
+    </array>
+</resources>

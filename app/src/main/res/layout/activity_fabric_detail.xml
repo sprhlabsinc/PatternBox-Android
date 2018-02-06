@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:id="@+id/imgPattern"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_camera"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+        <ImageView
+            android:id="@+id/imgBookMark"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/icon_bookmarkframe"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:id="@+id/delete_but"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/icon_nav_idelete"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:alpha="0.5"
+                android:background="@android:color/black"/>
+            <TextView
+                android:id="@+id/lbCategories"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:text="CATEGORIES: Knit"
+                android:focusable="false"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="NAME"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+                <TextView
+                    android:id="@+id/name_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="TYPE"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+                <TextView
+                    android:id="@+id/type_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:text="COLOR"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <TextView
+                    android:id="@+id/color_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:text="WIDTH"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <TextView
+                    android:id="@+id/width_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="LENGTH"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+                <TextView
+                    android:id="@+id/length_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:text="WEIGHT"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <TextView
+                    android:id="@+id/weight_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="STRETCH"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+                <TextView
+                    android:id="@+id/stretch_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="USES"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+                <TextView
+                    android:id="@+id/uses_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:text="CARE INSTRUCTIONS"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <TextView
+                    android:id="@+id/careinstructions_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text="555"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"
+                    android:text="NOTES"
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+                <TextView
+                    android:id="@+id/notes_txt"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_centerVertical="true"
+                    android:text="notes"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

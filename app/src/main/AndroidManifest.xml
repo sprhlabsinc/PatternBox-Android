@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.premium.patternbox">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+
+    <application
+        android:name="com.premium.patternbox.app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".LoginActivity"
+            android:launchMode="singleTop" android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            >
+        </activity>
+        <activity
+            android:name=".ResetActivity" android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".SignupActivity" android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".AboutUsActivity" android:screenOrientation="portrait"
+            android:label="@string/activity_title_about_us">
+        </activity>
+        <activity
+            android:name=".TutorialActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" />
+                <data android:host="*" />
+                <data android:mimeType="application/pdf" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.pdf" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.pdf" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PatternMainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".PatternSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternCategoriesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternCategoryAddActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternCapturedDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternPdfDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternPdfViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternScanActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternImageEditActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PatternNewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".PatternSaveActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".PatternEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".PatternBuyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".PatternAddProjectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:screenOrientation="portrait" android:name=".PatternCapturedSearchDetailActivity"/>
+
+        <activity android:name=".PatternSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.premium.patternbox.PatternMainActivity" />
+        </activity>
+
+        <activity android:name=".FabricMainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".FabricSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".FabricCategoriesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".FabricCategoryAddActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".FabricActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".FabricDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".FabricEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".FabricAddProjectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".NotionMainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".NotionSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".NotionViewActivity" android:screenOrientation="portrait"/>
+
+        <activity android:name=".ProjectSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".ProjectEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+
+        <activity
+            android:name="vn.tungdx.mediapicker.activities.MediaPickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MediaPickerTheme" />
+    </application>
+
+</manifest>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="RtlHardcoded">
+        <info.hoang8f.android.segmented.SegmentedGroup
+            xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/segmented2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_corner_radius="10dp">
+
+            <RadioButton
+                android:id="@+id/pen_but"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Pen"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@drawable/icon_nav_ipen"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                style="@style/RadioButton"/>
+
+            <RadioButton
+                android:id="@+id/erase_but"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Erase"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@drawable/icon_nav_ieraser"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                style="@style/RadioButton"/>
+
+            <RadioButton
+                android:id="@+id/zoom_but"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Zoom"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@drawable/icon_navi_zoom"
+                tools:ignore="HardcodedText,UnusedAttribute"
+                style="@style/RadioButton"/>
+        </info.hoang8f.android.segmented.SegmentedGroup>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/top_layout"
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+        <ImageView
+            android:id="@+id/pattern_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_camera"
+            tools:ignore="ContentDescription" />
+        <com.agsw.FabricView.FabricView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/faricView"/>
+    </RelativeLayout>
+    <ImageView
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/temp_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="PATTERN NAME"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/name_txt"
+        android:lines="1"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="TextFields" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="PATTERN ID"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/id_txt"
+        android:lines="1"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="TextFields" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="CATEGORY"
+        tools:ignore="HardcodedText" />
+    <org.lucasr.twowayview.TwoWayView
+        android:layout_marginTop="10dp"
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:drawSelectorOnTop="false"
+        android:background="@android:color/white"
+        style="@style/TwoWayView"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="NOTES"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/info_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="TextFields" />
+</LinearLayout>

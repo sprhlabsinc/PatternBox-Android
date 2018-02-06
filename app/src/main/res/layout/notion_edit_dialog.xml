@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="420dp"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/dialog_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:text="New Notion"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <EditText
+            android:id="@+id/type_txt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.03"
+            android:background="@drawable/round_border_text"
+            android:ems="10"
+            android:hint="Enter the notion type"
+            android:inputType="text"
+            android:padding="10dp"
+            tools:ignore="HardcodedText" />
+        <EditText
+            android:id="@+id/color_txt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.03"
+            android:background="@drawable/round_border_text"
+            android:ems="10"
+            android:hint="Enter the notion color"
+            android:inputType="text"
+            android:padding="10dp"
+            tools:ignore="HardcodedText" />
+        <EditText
+            android:id="@+id/size_txt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.03"
+            android:background="@drawable/round_border_text"
+            android:ems="10"
+            android:hint="Enter the notion size"
+            android:inputType="text"
+            android:padding="10dp"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <Button
+            android:id="@+id/confirm_but"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/dialog_button"
+            android:text="Confirm"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/done_but"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_button"
+            android:text="Done"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_logo">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_edit"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+</RelativeLayout>

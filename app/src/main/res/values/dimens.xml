@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="log_width_height">200dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="tutorial_title_size">26sp</dimen>
+    <dimen name="tutorial_content_size">16sp</dimen>
+    <dimen name="tutorial_image_height">300dp</dimen>
+    <dimen name="tutorial_image_spacing">20dp</dimen>
+    <dimen name="tutorial_image_width">150dp</dimen>
+</resources>

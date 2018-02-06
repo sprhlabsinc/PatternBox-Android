@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/launchicon"
+            android:id="@+id/imageView"
+            android:layout_marginBottom="30dp"
+            android:layout_height="120dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:text="@string/reset_enter_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="@string/reset_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:lines="3" />
+
+        <EditText
+            android:id="@+id/email_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightGray"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHint="@color/colorHint"
+            android:textSize="14sp" />
+
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorDefault"
+            android:text="@string/btn_reset"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_height="40dp" />
+
+        <!-- Link to Login Screen -->
+        <Button
+            android:id="@+id/btnLinkToMainScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:text="@string/btn_link_to_main"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
